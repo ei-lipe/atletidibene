@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-    <title>Atleti di Bene</title>
+    <title>Atleti Di Bene</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -58,7 +58,7 @@
               <li class="scroll-to-section"><a href="#beneficios">Benefícios do Esporte</a></li>
              <!-- <li class="scroll-to-section"><a class="button-alert" onclick="alerta()">Cadastre sua doação</a></li>  -->
               <li class="scroll-to-section"><a href="Listagem.html">Artigos disponíveis</a></li>
-              <li><div class="gradient-button"><a href="novologin2.html"><i class="fa fa-sign-in-alt"></i> Login</a></div></li> 
+              <li><div class="gradient-button"><a href="novologim2.html"><i class="fa fa-sign-in-alt"></i> Login</a></div></li> 
             </ul>  
             <!-- ***** Menu End ***** -->
           </nav>
@@ -142,7 +142,8 @@
     </div>
   </div>
 
-  <div id="missao" class="services section">
+  
+  <div id="missao" class="about-us section">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 offset-lg-2">
@@ -161,7 +162,7 @@
       </div>
     </div>
 
-  <div id="beneficios" class="about-us section">
+  <div id="beneficios" class="the-clients">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 align-self-center">
@@ -176,6 +177,29 @@
       </div>
     </div>
   </div>
+
+  <br><br><br><br><br><br>
+
+  <div id="Realizações" class=>
+    <div class="container">
+      <div class="row">
+          <div class="section-heading">
+            <center><h4><em>Realizações </em></h4></center>
+  <div class="testimonial-slider">
+    <div class="testimonial-item">
+      <div class="testimonial-item d-flex flex-column align-items-center">
+        <br><br>
+      <img src="assets/images/interação.jpg" alt="Colégio Integração" class="rounded" style="width: 500px; height: 600px;">
+      <br>
+      <blockquote>
+        <p>Doação realizada do doador Alex para o Colégio Interação!</p>
+        <p>Parabéns Alex pelo ato de bondade e por nos ajudar a tornar esse projeto uma realidade!</p>
+      </blockquote>
+    </div>
+    </div>
+    <!-- Adicione mais slides conforme necessário -->
+  </div>
+
 
   <footer id="contato">
     <div class="container">
@@ -215,5 +239,25 @@
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+<script>
+  $(document).ready(function(){
+    $('.testimonial-slider').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      dots: false,
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: true, // Define como `false` se não quiser os botões de navegação
+      centerMode: true, // Centraliza o slide em exibição
+    });
+  });
+</script>
+
+
 </body>
 </html>
